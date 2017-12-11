@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif, arial;
+}
+#head{
+    position: relative;
+    text-align: center;
+    border-bottom: 3px solid rgb(105,146,184);
+    color: #4B7089;
+}
+
+#box{
+    color: #4F74A3;
+    position: relative;
+    display: block;
+    left: 50px;
+    
+
+}
+
+
+#btn {
+    position: relative;
+    border: none;
+    color: #4F74A3;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 50px;
+    font-size: 20px;
+}
+#btn:hover{
+    background-color: rgb(105,146,184);
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}

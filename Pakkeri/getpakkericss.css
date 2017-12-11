@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif, arial;
+}
+#head {
+    border-bottom: 3px solid rgb(105,146,184);
+    color: rgb(75,112,137);
+}
+
+
+#word {
+    border: 1px solid black;
+    background-color: rgba(149,178,205, .7);
+}
+#word2 {
+border: 1px solid black;
+
+}
+#color {
+border: 1px solid black;
+
+}
+#color2 {
+border: 1px solid black;
+background-color: rgba(149,178,205, .7);
+}
+#instruk{
+    margin-top: -48px;
+    font-size: 20;
+    color: #0074A3;
+
+
+}
+#instrukP{
+    font-size: 20px;
+    color: #0074A3
+
+}
+#btn {
+    color: #0074A3;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#btn:hover {
+    background-color: rgb(105,146,184);
+    border: none;
+
+    font-size: 20px;
+}
+.søgte {
+
+    margin-top: -93px;
+}
+#søgt{
+    margin-bottom: -50px;
+    margin-right: 5px;
+    border-color: #95B2CD;
+}
+#søgtP{
+    margin-right: 160px;
+    color: #0089C2;
+    font-size: 20px;
+}
+#søgtS {
+    text-align:right;
+    margin-bottom: -50px;
+    margin-right: 35px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0074A3;
+}
+#søgtS:hover{
+     background-color: rgb(105,146,184);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+   
+.box{
+display: none;
+width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+#myTable tr:nth-child(n+12){
+    display: none;
+}
+#show{
+    text-align: center;
+    color: #0074A3;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+#showBtn {
+    text-align: center;
+}
+#show:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

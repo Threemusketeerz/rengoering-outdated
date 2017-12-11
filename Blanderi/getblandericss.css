@@ -1,0 +1,118 @@
+
+body {
+    font-family: sans-serif, arial;
+    font-size: 20px;
+}
+#word {
+    border: 1px solid black;
+        
+}
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+#over {
+    padding-right: 30px;
+    color: rgba(105,146,184, .7);
+    border-bottom: 3px solid white;
+}
+#over2 {
+    padding-right: 30px;
+    color: rgba(105,146,184, .7);
+    border-bottom: 3px solid rgb(105,146,184);
+}
+.color {
+    background-color: rgba(105,146,184, .7);
+     
+}
+
+#color2 {
+    border: 1px solid rgba(105,146,184, .7);
+    
+}
+#myTable tr:nth-child(n+12) {
+    display:none;
+}
+.showBtn {
+    text-align: center;
+}
+#show{
+    text-align: center;
+    color: #0074A3;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+#show:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#head {
+    color: #4B7089;
+    border-bottom: 3px solid #6992B8;
+}
+#instruk {
+    margin-top: -50px;
+    color: #0074A3;
+}
+#instrukP {
+    color:#0074A3;
+}
+#btn {
+    color: #0074A3;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#btn:hover, a:hover{
+    background-color: rgb(105,146,184);
+    border: none;
+
+    font-size: 20px;
+}
+#søgt {
+    
+    margin-bottom: -50px;
+    margin-right: 10px;
+    border-color: #95B2CD;
+}
+#søgtP{
+    margin-right: 172px;
+    color: #0089C2;
+}
+#søgtS{
+    text-align:right;
+    margin-bottom: -50px;
+    margin-right: 35px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0074A3;
+}
+#søgtS:hover{
+     background-color: rgb(105,146,184);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.søgte {
+    margin-top: -93px;
+}
